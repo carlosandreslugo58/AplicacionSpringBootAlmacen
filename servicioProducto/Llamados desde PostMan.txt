@@ -1,0 +1,53 @@
+GET
+localhost:8091/productos
+
+-----------------------------------
+POST
+localhost:8091/productos/
+
+{
+    "nombre": "Playstation 5",
+    "descripcion": "Play 5",
+    "stock": 5.0,
+    "precio": 2500000.0,
+    "categoria": {
+        "id": 3,
+        "nombre": "Electrodomésticos"
+    }
+}
+
+-----------------------------------
+PUT
+localhost:8091/productos/556
+
+{
+    "nombre": "Playstation 5",
+    "descripcion": "Play 5",
+    "stock": 5.0,
+    "precio": 10000000.0,
+    "categoria": {
+        "id": 3,
+        "nombre": "Electrodomésticos"
+    }
+}
+
+-----------------------------------
+DELETE
+localhost:8091/productos/111
+
+-----------------------------------
+GET
+localhost:8091/productos/111/stock?cantidad=20
+
+-----------------------------------
+
+
+-----------------------------------
+
+
+-----------------------------------
+
+
+
+
+
