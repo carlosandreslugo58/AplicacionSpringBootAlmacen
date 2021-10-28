@@ -7,3 +7,11 @@ spring:
       server:
         git:
           uri: https://github.com/carlosandreslugo58/AplicacionSpringBootAlmacen.git
+          searchPaths: config-data
+          username: carlosandres58
+          password: CarlosA59.
+
+  security:
+    user:
+      name: root
+      password: CarlosA59.
