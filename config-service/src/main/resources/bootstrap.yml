@@ -6,12 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/carlosandreslugo58/AplicacionSpringBootAlmacen.git
+          uri: https://github.com/digitallab-academy/ms-course-youtube.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-
+          default-label: "master"
   security:
     user:
       name: root
-      password: 12345
+      password: s3cr3t  
