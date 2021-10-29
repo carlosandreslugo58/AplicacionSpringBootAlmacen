@@ -8,8 +8,8 @@ spring:
         git:
           uri: https://github.com/carlosandreslugo58/AplicacionSpringBootAlmacen.git
           searchPaths: config-data
-          username: carlosandres58
-          password: CarlosA59.
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
 
   security:
     user:
