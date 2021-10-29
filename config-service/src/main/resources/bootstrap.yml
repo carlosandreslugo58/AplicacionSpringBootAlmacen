@@ -14,4 +14,4 @@ spring:
   security:
     user:
       name: root
-      password: CarlosA59.
+      password: 12345
