@@ -4,6 +4,8 @@ server:
 spring:
   cloud:
     config:
+      import-check:
+        enabled: false
       server:
         git:
           uri: https://github.com/carlosandreslugo58/AplicacionSpringBootAlmacen.git
